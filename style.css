@@ -1,0 +1,50 @@
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: grey;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.company-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  font-size: 28px;
+}
+
+.address {
+  padding-right: 200px;
+}
+
+.pandaImg {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  margin-top: 100px;
+}
